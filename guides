@@ -1,0 +1,7 @@
+
+~/OPENVPN_MUNUALLY_SETUP
+ssh -T git@github.com
+git init
+
+@github : OPENVPN_MANNUALY_SETUP
+
