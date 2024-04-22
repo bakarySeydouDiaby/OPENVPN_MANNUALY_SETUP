@@ -5,3 +5,20 @@ git init
 
 @github : OPENVPN_MANNUALY_SETUP
 
+git remote add origin https://github.com/bakarySeydouDiaby/OPENVPN_MANNUALY_SET
+git add guides 
+git commit -m "first commit"
+git push -u origin master
+ 
+
+INSTALLATION
+============
+sudo apt update
+sudo apt install openvpn easy-rsa
+
+mkdir ~/easy-rsa
+
+ln -s /usr/share/easy-rsa/* ~/easy-rsa/
+
+sudo chown bakary ~/easy-rsa
+sudo chmod 700 ~/easy-rsa
